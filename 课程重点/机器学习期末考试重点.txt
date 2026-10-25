@@ -1,0 +1,46 @@
+假设空间、版本空间
+NFL定理
+
+考试范围：教材前8章
+
+BP算法的公式要记忆，自己会算
+朴素贝叶斯大题会考，参考第七章作业
+
+选择：所有范围，可能会有跨章节
+4个大题：
+
+决策树、贝叶斯（连续值对应的计算）、神经元网络（感知机、BP算法计算权值、优化）涉及到大量计算
+
+题型：
+选择题：5个小题（10')，覆盖1~8章所有内容，都是很基础的
+计算题：4个题（80'），每个20分：
+① 决策树（给一个数据集，有连续和离散，用某种模型计算：三种ID3、C4.5、CART）
+② 线性模型：多元回归（特别是）、逻辑蒂斯回归、线性判别分析LDA
+③ 支持向量机：SVM超平面，最优间隔分类（原始问题、对偶问题）
+④ 神经元网络：感知机（更新公式）、BP算法（给一个对应的网络、目标函数、激活函数，误差反向传播，如何更新权值）
+⑤ 贝叶斯：朴素贝叶斯（离散型+连续性）先验概率、类条件概率，类决策
+⑥ 集成学习：Adaboost，每一轮的阈值会给，只需要计算误分率，更新样本概率分布。Baging、Stacking作为选择题考核
+认真复习练习题作业
+
+思考题：1个题（10'）数据敏感能力？AI？AI要求？要在人的提示下，设定框架，人的价值？快速洞察数据内部规律，快速找到机器学习算法，一步一步解决，拿到数据之后，能够运用机器学习的方法去解决问题？
+类似：credit数据集？分类？建立信用评估模型，各种各样的分类方法？要对数据预处理？（缺失值、记号？）特征提取？（有些需要有些不需要）分成训练集、测试集
+这个数据集反应了什么东西？怎么应用机器学习方法快速的找出规律
+
+
+
+第八章作业：
+3个基学习器，两个决策树都可以
+
+
+文献阅读：
+Maximum Likelihood from Incomplete Data via the EM Algorithm（EM算法）
+An Introduction to Variational Methods for Graphical Models （变分推断1999）
+Greedy Function Approximation: A Gradient Boosting Machine
+XGBoost: A Scalable Tree Boosting System (KDD 2016)
+LightGBM: A Highly Efficient Gradient Boosting Decision Tree (NeurIPS 2017)
+
+
+
+
+
+
