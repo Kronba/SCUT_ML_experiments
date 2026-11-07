@@ -1,0 +1,26 @@
+# 机器学习课程实验（SCUT）—— Python 依赖
+# 版本与本项目开发环境（Python 3.12.3）完全一致，可用 uv 或 pip 安装：
+#   uv venv && uv pip install -r requirements.txt
+#   python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
+
+# ---- 数值计算与数据处理 ----
+numpy==2.5.2
+pandas==3.0.5
+scipy==1.18.1
+openpyxl==3.1.5          # pandas 读写 xlsx
+
+# ---- 机器学习与可视化 ----
+scikit-learn==1.9.0
+matplotlib==3.11.1
+seaborn==0.13.2
+
+# ---- notebook 运行环境 ----
+jupyter==1.1.1
+notebook==7.6.2
+ipykernel==7.3.0
+nbformat==5.11.1
+nbclient==0.11.0         # 命令行批量执行 notebook
+
+# ---- 实验报告生成 ----
+python-docx==1.2.0       # 生成 Word 报告
+pillow==12.3.0           # 图像尺寸校验与格式转换
